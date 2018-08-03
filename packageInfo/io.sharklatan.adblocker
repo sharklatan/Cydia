@@ -1,0 +1,9 @@
+{
+	"name": "Ad Blocker",
+	"desc_short": "Add Ads Block in /etc/hosts",
+	"desc_long": null,
+	"compatitle": "iOS 11",
+	"changelog": "<strong>0.0~relase</strong><br>+ Support iOS 11.<br>",
+	"screenshot": null,
+	"open": true,
+}

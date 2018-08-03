@@ -1,0 +1,9 @@
+{
+	"name": "PowerAdvanced",
+	"desc_short": "Menu in Power Button",
+	"desc_long": null,
+	"compatitle": "iOS 11",
+	"changelog": "<strong>0.0~relase</strong><br>+ Support iOS 11.<br>",
+	"screenshot": null,
+	"open": true,
+}
