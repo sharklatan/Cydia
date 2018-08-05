@@ -1,0 +1,9 @@
+{
+	"name": "CrackTool3 Addons (CallBar X)",
+	"desc_short": "Add Support to CallBar X in CrackTool3",
+	"desc_long": null,
+	"compatitle": "iOS 11",
+	"changelog": "<strong>0.0~relase</strong><br>+ Support iOS 11.<br>",
+	"screenshot": null,
+	"open": true,
+}
