@@ -1,0 +1,9 @@
+{
+	"name": "Sylph",
+	"desc_short": "Mini media player on LS",
+	"desc_long": "Mini media player on LS <br> Tweaks on SS 👉🏽 Latchkey, Jumper, Palette, StackXI (not released)",
+	"compatitle": "iOS 11",
+	"changelog": "+ Support iOS 11.<br><strong>0.0~beta</strong><br>- BugFix.<br>",
+	"screenshot": "<div style='text-align:center;'><a href='https://i.imgur.com/2afjbEy.jpg' target='_blank'><img width=95% src='https://i.imgur.com/2afjbEy.jpg'/></a><br></div>",
+	"open": false,
+}
