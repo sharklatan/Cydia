@@ -1,0 +1,9 @@
+{
+	"name": "Pikabu Premium",
+	"desc_short": "Move the sound window in a mini-shape to a beautiful caption",
+	"desc_long": " Minimalistic volume hud on the notch, Headphone detection, Support iOS 10.0 to iOS 11.1.2",
+	"compatitle": "iOS 11",
+	"changelog": "<strong>0.0~relase</strong><br>+ Support iOS 11.<br>",
+	"screenshot": "<div style='text-align:center;'><a href='https://i.imgur.com/pyjoc1c.png' target='_blank'><img width=95% src='https://i.imgur.com/pyjoc1c.png'/></a><br> <a href='https://i.imgur.com/yYju1Qs.png' target='_blank'><img width=95% src='https://i.imgur.com/yYju1Qs.png'/></a><br></div>",
+	"open": false,
+}
