@@ -3,7 +3,7 @@
 	"desc_short": "Add Ads Block in /etc/hosts",
 	"desc_long": null,
 	"compatitle": "iOS 11",
-	"changelog": "<strong>0.0~relase</strong><br>+ Support iOS 11.<br>",
+	"changelog": "<strong>9.0.5~relase</strong><br>+ Block ads TweakBoX Apps.<br> <strong>0.0~relase</strong><br>+ Support iOS 11.<br>",
 	"screenshot": null,
 	"open": true,
 }
