@@ -72,7 +72,7 @@ function loadPackageInfo() {
 	});
 }
 function loadRecentUpdates() {
-	var form_url = window.location.protocol+"//"+window.location.hostname+"/last.updates";
+	var form_url = window.location.protocol+"//"+window.location.hostname+"/cydia/last.updates";
 	$.ajax({
 		url: form_url,
 		type: "GET",
@@ -84,7 +84,7 @@ function loadRecentUpdates() {
 			for (var dicNow in decodeResp) {
 				var urlOpen = "cydia://package/"+decodeResp[dicNow].package;
 				if (navigator.userAgent.search(/Cydia/) == -1) {
-					urlOpen = window.location.protocol+"//"+window.location.hostname+"/info.html?id="+decodeResp[dicNow].package;
+					urlOpen = window.location.protocol+"//"+window.location.hostname+"/cydia/info.html?id="+decodeResp[dicNow].package;
 				}
 				htmlnews +=  "<li><a href='"+urlOpen+"' target='_blank'><img class='icon' src='tweak.png'/><label>"+decodeResp[dicNow].name+" v"+decodeResp[dicNow].version+"</label></a></li>";
 			}
