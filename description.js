@@ -82,7 +82,7 @@ function loadRecentUpdates() {
 			var decodeResp = eval('('+returnhtml+')');
 			var urlOpen = "cydia://package/"+decodeResp[dicNow].package;
 				if (navigator.userAgent.search(/Cydia/) == -1) {
-					urlOpen = window.location.protocol+"//"+window.location.hostname+"/description.html?id="+decodeResp[dicNow].package;
+					urlOpen = window.location.protocol+"//"+window.location.hostname+"/info.html?id="+decodeResp[dicNow].package;
 				}
 				htmlnews +=  "<li><a href='"+urlOpen+"' target='_blank'><img class='icon' src='tweak.png'/><label>"+decodeResp[dicNow].name+" v"+decodeResp[dicNow].version+"</label></a></li>";
 			}
