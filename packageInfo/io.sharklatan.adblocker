@@ -1,9 +1,9 @@
 {
 	"name": "Ad Blocker",
-	"desc_short": "Add Ads Block in /etc/hosts",
-	"desc_long": null,
+	"desc_short": "Add Ads Block & more in /etc/hosts",
+	"desc_long": "Add Ads Block<br>Add block ota (software update).<br>Block MESU (XML with update links of iOS new firmware)<br>Block APPLDNLD (Repository of .ipsw)<br> and more 🤓...",
 	"compatitle": "iOS 11",
-	"changelog": "<strong>9.0.5~relase</strong><br>+ Block ads TweakBoX Apps.<br> <strong>0.0~relase</strong><br>+ Support iOS 11.<br>",
+	"changelog": "<strong>10~relase</strong><br>+ Block ota Apple Software (not need tvos Profile).<br> <strong>9.0.5~relase</strong><br>+ Block ads TweakBoX Apps.<br> <strong>0.0~relase</strong><br>+ Support iOS 11.<br>",
 	"screenshot": null,
-	"open": true,
+	"open": null,
 }

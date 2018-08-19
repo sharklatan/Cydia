@@ -1,3 +1,3 @@
 #!/bin/bash
-./comprime.sh
-./relase.sh
+./generar.sh
+./last_updates.sh
