@@ -8,7 +8,7 @@ function iOSVersion() {
 $(function() {
   $("li").on("click",function() {
 	  if(this.id=="dnt") {
-		  $("#dnt_txt").html("You can donate USD via PayPal mail: element.ro"+"@"+"gmail.com.com");
+		  $("#dnt_txt").html("You can donate USD via PayPal mail: element.ro"+"@"+"gmail.com");
 	  }
   });
 });
@@ -64,7 +64,7 @@ function loadPackageInfo() {
 			if(decodeResp.open == true) {
 				$("#is_open_source_").show();
 			}
-
+			
         },
 		error: function (err) {
 			$("#errorInfo").html("Description unavailable for "+urlSelfParts[1]);
@@ -80,7 +80,9 @@ function loadRecentUpdates() {
 		crossDomain: true,
 		success: function (returnhtml) {
 			var decodeResp = eval('('+returnhtml+')');
-			var urlOpen = "cydia://package/"+decodeResp[dicNow].package;
+			var htmlnews = "";
+			for (var dicNow in decodeResp) {
+				var urlOpen = "cydia://package/"+decodeResp[dicNow].package;
 				if (navigator.userAgent.search(/Cydia/) == -1) {
 					urlOpen = window.location.protocol+"//"+window.location.hostname+"/info.html?id="+decodeResp[dicNow].package;
 				}
